@@ -1,0 +1,22 @@
+version: 1.0.0
+template:
+  engine: handlebars
+  path: "."
+  extension: ".boiler"
+data:
+  - name: alertMessage
+    type: string
+    message: "Enter the alert message:"
+    required: false
+    defaultValue: ""
+  - name: appTitle
+    type: string
+    message: "Enter a title for your app:"
+    required: false
+    defaultValue: ""
+  - name: appDescription
+    type: string
+    message: "Enter app description:"
+    required: false
+    defaultValue: ""
+helpText: "Happy hacking!"
